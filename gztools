@@ -17,8 +17,6 @@ const GZTools = {
   and share a bit of what’s coming.
 
   v1.0.0 Beta
-
-  — Carver Design Team
 */
   
   KWasd: function (X: number,
