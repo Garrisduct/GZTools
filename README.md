@@ -1,4 +1,4 @@
-# 🌟 GZ Tools by Carver Design
+# 🌟 GZ Tools
 
 Welcome to **GZ Tools**, a utility built to simplify your building process and enhance your development workflow on **CodeWisp**.
 
@@ -6,7 +6,7 @@ Welcome to **GZ Tools**, a utility built to simplify your building process and e
 
 ## 🚀 About
 
-**GZ Tools** is designed by **Carver Design** with the goal of making everyday tasks easier and more efficient for creators. Whether you're just starting out or you're an experienced developer, GZ Tools provides a simple, intuitive way to improve your building experience.
+**GZ Tools** is designed by Developers with the goal of making everyday tasks easier and more efficient for creators. Whether you're just starting out or you're an experienced developer, GZ Tools provides a simple, intuitive way to improve your building experience.
 
 ---
 
