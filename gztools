@@ -1,0 +1,61 @@
+const GZTools = {
+  /* 
+  Welcome to GZ Tools!
+
+  Thank you for checking out GZ Tools, a utility built with developers to help developers like you
+  streamline workflows, enhance productivity, and make building on CodeWisp more enjoyable.
+
+  This tool was designed with simplicity in mind — whether you're a beginner or a seasoned
+  creator, GZ Tools aims to make your life easier.
+
+  What's Next?
+  We're planning a significant update once the long-awaited "Costumes" feature is officially released.
+  When that happens, expect some powerful new functionality to land right here. Stay tuned!
+
+  Heads up:
+  You can safely remove this comment if you’d like — it's just here to say hello
+  and share a bit of what’s coming.
+
+  v1.0.0 Beta
+
+  — Carver Design Team
+*/
+  
+  KWasd: function (X: number,
+                   Y: number) {
+    if (Keyboard.keyHeld(Key.A)) {sprite.x += -X}
+    if (Keyboard.keyHeld(Key.D)) {sprite.x += X}
+    if (Keyboard.keyHeld(Key.W)) {sprite.y += Y}
+    if (Keyboard.keyHeld(Key.S)) {sprite.y += -Y}
+  },
+
+  KArrow: function (X: number,
+                    Y: number) {
+    if (Keyboard.keyHeld(Key.ArrowLeft)) {sprite.x += -X}
+    if (Keyboard.keyHeld(Key.ArrowRight)) {sprite.x += X}
+    if (Keyboard.keyHeld(Key.ArrowUp)) {sprite.y += Y}
+    if (Keyboard.keyHeld(Key.ArrowDown)) {sprite.y += -Y}
+  },
+  KWasdMouse: function (X: number,
+                      Y: number,
+                      RotS: number) {
+    if (Keyboard.keyHeld(Key.A)) {sprite.x += -X; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.D)) {sprite.x += X; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.W)) {sprite.y += Y; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.S)) {sprite.y += -Y; sprite.pointTowards(Mouse.x, Mouse.y)}
+  },
+  
+  KArrowMouse: function (X: number,
+                      Y: number,
+                      RotS: number) {
+    if (Keyboard.keyHeld(Key.ArrowLeft)) {sprite.x += -X; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.ArrowRight)) {sprite.x += X; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.ArrowUp)) {sprite.y += Y; sprite.pointTowards(Mouse.x, Mouse.y)}
+    if (Keyboard.keyHeld(Key.ArrowDown)) {sprite.y += -Y; sprite.pointTowards(Mouse.x, Mouse.y)}
+  },
+  PointM: function() {
+    sprite.pointTowards(Mouse.x, Mouse.y)
+  }
+  
+}
+
